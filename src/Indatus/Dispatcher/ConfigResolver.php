@@ -24,7 +24,7 @@ class ConfigResolver
     {
         try {
             return App::make(
-                Config::get('dispatcher::driver').'\\Scheduler', array(
+                ''.'\\Scheduler', array(
                     $this
                 )
             );
@@ -58,7 +58,7 @@ class ConfigResolver
      */
     public function getDriver()
     {
-        return ucwords(strtolower(Config::get('dispatcher::driver')));
+        return ucwords(strtolower('cron'));
     }
 
 }
