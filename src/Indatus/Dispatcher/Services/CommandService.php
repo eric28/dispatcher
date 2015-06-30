@@ -172,7 +172,7 @@ class CommandService
         $platform = App::make('Indatus\Dispatcher\Platform');
 
         //load executable path
-        $executablePath = Config::get('dispatcher::executable');
+        $executablePath = null;
         if (!is_null($executablePath)) {
             $commandPieces = array($executablePath);
         } else {
