@@ -1,13 +1,13 @@
 {
-    "name": "indatus/dispatcher",
+    "name": "eric28/dispatcher",
     "description": "Schedule your artisan commands within your application's source code",
     "keywords": ["laravel", "artisan", "dispatcher", "schedule", "cron"],
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Ben Kuhl",
-            "email": "benkuhl@gmail.com",
+            "name": "ERiC",
+            "email": "",
             "role": "Software Engineer"
         }
     ],
