@@ -45,7 +45,7 @@ class ConfigResolver
     public function resolveServiceClass()
     {
         try {
-            return App::make(Config::get('dispatcher::driver').'\\ScheduleService');
+            return App::make(''.'\\ScheduleService');
         } catch (\ReflectionException $e) {
             return App::make('Indatus\Dispatcher\Drivers\\'.$this->getDriver().'\\ScheduleService');
         }
